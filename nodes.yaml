@@ -1,0 +1,13 @@
+- name: node1
+  hostname: node1.example.com
+  description: "This is node 1"
+  tags: linux, production
+  username: admin
+  osFamily: unix
+
+- name: node2
+  hostname: node2.example.com
+  description: "This is node 2"
+  tags: windows, test
+  username: admin
+  osFamily: windows
